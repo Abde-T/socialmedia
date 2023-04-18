@@ -25,7 +25,7 @@ export default function Navbar() {
         <div className="w-[1400px]  flex justify-center  ">
           <div className=" w-full h-[70px] flex items-center justify-between mx-3 xl:justify-around ">
             <div className="flex justify-center xl:justify-start items-center py-3 xl:p-3">
-              <Image src={"/assets/logo.png"} width={100} height={50}  />
+              <Image alt="profile" src={"/assets/logo.png"} width={100} height={50}  />
             </div>
             <div className="hidden md:flex justify-center items-center">
               <div className="border-b-8 rounded-lg border-black p-[17px]">

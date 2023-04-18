@@ -16,6 +16,7 @@ import {
   onSnapshot,
   updateDoc,
 } from "firebase/firestore";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Moment from "react-moment";
@@ -144,9 +145,11 @@ export function TweetHeader({ username, name, timestamp, text, photoUrl, image }
 
         <span>{text}</span>
 
-        {image && <img
+        {image && <Image
         className="object-cover border border-gray-300 rounded-md mt-3 max-h-80"
-        src={image} />}
+        src={image} >
+        </Image>
+        }
       </div>
     </div>
   );

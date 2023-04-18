@@ -12,7 +12,6 @@ import {
   DotsHorizontalIcon,
 } from "@heroicons/react/outline";
 import { signOut } from "firebase/auth";
-import Image from "next/image";
 import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -55,6 +54,7 @@ export default function Sidebar() {
         xl:p-3 flex justify-center items-center  space-x-3"
         >
           <img
+          alt="profile"
             className="w-10 h-10 rounded-full
           object-cover 
           "

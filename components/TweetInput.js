@@ -75,7 +75,7 @@ export default function TweetInput() {
     <div className="flex space-x-3 p-3 border-b py-8 border-gray-300">
       <img
         className="w-11 h-11 rounded-full object-cover"
-        src={user.photoUrl || "/assets/twitter-logo.png"}
+        src={user.photoUrl || "/assets/default.jpg"}
       />
 
       {loading && <h1 className="text-2xl text-gray-500">Uploading post...</h1>}
