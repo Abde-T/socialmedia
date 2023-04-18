@@ -80,13 +80,13 @@ export default function SignupModal() {
         className="flex justify-center items-center"
       >
         <div
-          className="w-[90%] h-[600px] bg-black text-white md:w-[560px] md:h-[600px] border border-gray-700 rounded-lg
+          className="w-[90%] h-[600px] bg-[#242424] text-white md:w-[560px] md:h-[600px] border border-gray-700 rounded-lg
         flex justify-center
         "
         >
           <div className="w-[90%] mt-8 flex flex-col">
             <button
-              className="bg-yellow-300 text-black w-full font-bold
+              className="bg-gray-300 text-black w-full font-bold
                 text-lg p-2 rounded-md
                 "
                 onClick={handleGuestSignIn}
@@ -94,7 +94,7 @@ export default function SignupModal() {
               Sign In as Guest
             </button>
             <h1 className="text-center mt-4 font-bold text-lg">or</h1>
-            <h1 className="mt-4 font-bold text-4xl text-yellow-300">Create your account</h1>
+            <h1 className="mt-4 font-bold text-4xl text-gray-300">Create your account</h1>
             <input
               placeholder="Full Name"
               className="h-10 mt-8 rounded-md bg-transparent border border-gray-700 p-6"
@@ -115,7 +115,7 @@ export default function SignupModal() {
             />
 
             <button
-              className="bg-yellow-300 text-black w-full font-bold
+              className="bg-gray-300 text-black w-full font-bold
                 text-lg p-2 mt-8 rounded-md
                 "
               onClick={handleSingUp}

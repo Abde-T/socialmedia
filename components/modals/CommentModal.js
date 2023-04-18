@@ -83,7 +83,7 @@ export default function CoomentModal() {
                 </div>
                 <p className="mt-1">{tweetDetails.tweet}</p>
                 <h1 className="text-gray-500 text-[15px] mt-2">
-                  Replying to <span className="text-yellow-300">@{tweetDetails.username}</span>
+                  Replying to <span className="text-gray-300">@{tweetDetails.username}</span>
                 </h1>
               </div>
             </div>
@@ -109,23 +109,23 @@ export default function CoomentModal() {
                 <div className="pt-4 flex justify-between border-t border-gray-700">
                   <div className="flex space-x-0">
                     <div className="iconAnimation">
-                      <PhotographIcon className="h-[22px] text-yellow-300 mx-2" />
+                      <PhotographIcon className="h-[22px] text-gray-300 mx-2" />
                     </div>
                     <div className="iconAnimation">
-                      <ChartBarIcon className="h-[22px] text-yellow-300 mx-2" />
+                      <ChartBarIcon className="h-[22px] text-gray-300 mx-2" />
                     </div>
                     <div className="iconAnimation">
-                      <EmojiHappyIcon className="h-[22px] text-yellow-300 mx-2" />
+                      <EmojiHappyIcon className="h-[22px] text-gray-300 mx-2" />
                     </div>
                     <div className="iconAnimation">
-                      <CalendarIcon className="h-[22px] text-yellow-300 mx-2" />
+                      <CalendarIcon className="h-[22px] text-gray-300 mx-2" />
                     </div>
                     <div className="iconAnimation">
-                      <LocationMarkerIcon className="h-[22px] text-yellow-300 mx-2" />
+                      <LocationMarkerIcon className="h-[22px] text-gray-300 mx-2" />
                     </div>
                   </div>
                   <button
-                    className="bg-yellow-300 text-[#242424] rounded-full px-4 py-1.5
+                    className="bg-gray-300 text-[#242424] rounded-full px-4 py-1.5
                   disabled:opacity-50
                   "
                   disabled={!comment}

@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className=" bg-yellow-300 sticky top-0 z-50  flex justify-center">
+      <div className=" bg-gray-300 sticky top-0 z-50  flex justify-center">
         <div className="w-[1400px]  flex justify-center  ">
           <div className=" w-full h-[70px] flex items-center justify-between mx-3 xl:justify-around ">
             <div className="flex justify-center xl:justify-start items-center py-3 xl:p-3">

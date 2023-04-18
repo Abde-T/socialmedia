@@ -40,7 +40,7 @@ export default function Sidebar() {
         <SidebarLink Icon={UserIcon} text={"Profile"} />
         <SidebarLink Icon={DotsCircleHorizontalIcon} text={"More"} />
         <button
-          className="hidden xl:inline bg-yellow-300 text-[#242424]
+          className="hidden xl:inline bg-gray-300 text-[#242424]
         rounded-full h-[52px] mt-2 w-[200px] text-lg font-bold
         "
         >
@@ -62,9 +62,9 @@ export default function Sidebar() {
           />
           <div className="hidden xl:inline">
             <h1 className="font-bold  whitespace-nowrap">{user.name}</h1>
-            <h1 className="text-yellow-300">@{user.username}</h1>
+            <h1 className="text-gray-300">@{user.username}</h1>
           </div>
-          <DotsHorizontalIcon className="h-5 hidden xl:inline text-yellow-300" />
+          <DotsHorizontalIcon className="h-5 hidden xl:inline text-gray-300" />
         </div>
     </div>
   );
@@ -73,7 +73,7 @@ export default function Sidebar() {
 function SidebarLink({ text, Icon }) {
   return (
     <li className="hoverAnimation flex mb-3 xl:justify-start justify-center items-center text-xl space-x-3">
-      <Icon className="h-7  text-yellow-300" />
+      <Icon className="h-7  text-gray-300" />
       <span className="hidden xl:inline">{text}</span>
     </li>
   );

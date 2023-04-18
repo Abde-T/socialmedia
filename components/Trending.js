@@ -4,7 +4,7 @@ export default function Trending() {
   return (
     <div className="hidden lg:flex flex-col ml-7 mt-4">
       <div className="flex space-x-3 bg-black bg-opacity-10 w-[300px] h-[44px] p-3 rounded-3xl ">
-        <SearchIcon className="w-6 text-yellow-100" />
+        <SearchIcon className="w-6 text-gray-300" />
         <input
           className="bg-transparent focus:outline-none placeholder:text-gray-600"
           placeholder="Search Twitter"
@@ -62,7 +62,7 @@ export default function Trending() {
           </div>
 
           <button
-            className="bg-yellow-300 text-black text-sm w-20 
+            className="bg-gray-300 text-black text-sm w-20 
           rounded-3xl font-bold
           h-8"
           >
@@ -85,7 +85,7 @@ export default function Trending() {
           </div>
 
           <button
-            className="bg-yellow-300 text-black text-sm w-20 
+            className="bg-gray-300 text-black text-sm w-20 
           rounded-3xl font-bold
           h-8"
           >
@@ -108,7 +108,7 @@ export default function Trending() {
           </div>
 
           <button
-            className="bg-yellow-300 text-black text-sm w-20 
+            className="bg-gray-300 text-black text-sm w-20 
           rounded-3xl font-bold
           h-8"
           >

@@ -72,7 +72,7 @@ export default function TweetInput() {
   }
 
   return (
-    <div className="flex space-x-3 p-3 border-b py-8 border-yellow-300">
+    <div className="flex space-x-3 p-3 border-b py-8 border-gray-300">
       <img
         className="w-11 h-11 rounded-full object-cover"
         src={user.photoUrl || "/assets/twitter-logo.png"}
@@ -110,7 +110,7 @@ export default function TweetInput() {
           </div>
         )}
 
-        <div className="flex justify-between border-t border-yellow-300 pt-4">
+        <div className="flex justify-between border-t border-gray-300 pt-4">
           {/* ICNONS DIV */}
           <div className="flex space-x-0">
             <div
@@ -139,7 +139,7 @@ export default function TweetInput() {
           <button
           onClick={sendTweet}
           disabled={!text && !image}
-          className="bg-yellow-300 text-[#242424] rounded-full px-4 py-1.5
+          className="bg-gray-300 text-[#242424] rounded-full px-4 py-1.5
           disabled:opacity-50
           ">
             Post
